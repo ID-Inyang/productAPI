@@ -36,9 +36,6 @@ app.put('/products/:id', (req, res) => {
   // const user = users.find(u => u.id === userId);
   // if (!user) return res.status(404).json({ error: 'User not found' });
 
-  // user.name = updatedData.name;
-  // ... etc
-
   console.log(`Updating user ${userId} with:`, updatedData);
 
   res.status(200).json({
