@@ -31,7 +31,6 @@ app.put('/products/:id', (req, res) => {
   const userId = req.params.id;
   const updatedData = req.body;   // { name, email, age, ... }
 
-  // TODO: Add your database logic here (Mongo, SQL, etc.)
   // Example with fake in-memory data:
   // const user = users.find(u => u.id === userId);
   // if (!user) return res.status(404).json({ error: 'User not found' });
